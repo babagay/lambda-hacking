@@ -110,6 +110,8 @@ public class Exercises {
     @Test
     public void listOfAllWords() throws IOException {
 
+        //todo flat map, collect to list, stream of streams
+
         List<String> output = Arrays.asList(
                 reader.lines()
                         .reduce(
@@ -186,6 +188,7 @@ public class Exercises {
     @Test
     public void sortedLowerCaseDistinctByLengthThenAlphabetically() throws IOException {
 
+        //todo зачейнить (скомпозировать) 2 компаратора
         List<String> output = Arrays.asList(
                 reader.lines()
                         .reduce(
